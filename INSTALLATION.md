@@ -7,7 +7,7 @@ apt install -y build-essential
 ```
 
 We are going to install Ruby using ruby-install, and we will choose the Ruby
-version to run with chruby. Using these utilities will allow stats-api-0xbtc to
+version to run with chruby. Using these utilities will allow stats-api-bsov to
 run with a recent version of Ruby, rather than trying to work with the older
 version of Ruby that Ubuntu installs by default. (Our Ruby will be installed to
 `/opt/rubies/ruby-2.6.3` [or whatever version], and will not interfere with the
@@ -58,10 +58,10 @@ in.
 source ~/.profile
 ```
 
-Check out the stats-api-0xbtc repo.
+Check out the stats-api-bsov repo.
 ```
-git clone https://github.com/rockmtn/stats-api-0xbtc.git
-cd stats-api-0xbtc # where the GitHub repo has been checked out
+git clone https://github.com/rockmtn/stats-api-bsov.git
+cd stats-api-bsov # where the GitHub repo has been checked out
 ```
 
 Install library dependencies in the current working directory (will not pollute
@@ -80,16 +80,16 @@ Configure `config.yml` and add your preferred web3 provider, e.g. Infura.
 
 ### Run as root:
 
-Cause stats-api-0xbtc services to be started at boot time. (Note: If your
+Cause stats-api-bsov services to be started at boot time. (Note: If your
 username is not `ubuntu`, fix the username and directory paths in
-`systemd/stats-api-0xbtc.service`.)
+`systemd/stats-api-bsov.service`.)
 ```
-cd /home/ubuntu/stats-api-0xbtc/
+cd /home/ubuntu/stats-api-bsov/
 cp systemd/*.service /etc/systemd/system/
-systemctl enable stats-api-0xbtc
+systemctl enable stats-api-bsov
 ```
 
 Start the services.
 ```
-systemctl start stats-api-0xbtc
+systemctl start stats-api-bsov
 ```
