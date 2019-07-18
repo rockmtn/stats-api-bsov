@@ -1,4 +1,6 @@
-# 0xBitcoin stats API (Ruby)
+# BitcoinSOV stats API (Ruby)
+
+Forked from <https://github.com/rockmtn/stats-api-0xbtc>
 
 This stats API produces output compatible with Toast's output.
 
