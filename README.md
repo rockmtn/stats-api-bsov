@@ -15,4 +15,8 @@ Just fork this project and customize.
 
 ## Installation
 
-See INSTALLATION.md
+See [INSTALLATION.md](INSTALLATION.md)
+
+## Contributions
+
+- [examples/getjson.html](examples/getjson.html) — how to integrate stats into your web page (Geoff)
