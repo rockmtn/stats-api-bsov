@@ -19,4 +19,4 @@ See [INSTALLATION.md](INSTALLATION.md)
 
 ## Contributions
 
-- [examples/getjson.html](examples/getjson.html) — how to integrate stats into your web page (Geoff)
+- [examples/getjson.html](examples/getjson.html) — how to integrate stats into your web page ([GeoffedUP](https://github.com/GeoffedUP))
